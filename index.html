@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIEM Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SIEM Dashboard</h1>
+        </header>
+        <main>
+            <section class="logs">
+                <h2>Security Logs</h2>
+                <div id="log-list"></div>
+            </section>
+            <section class="charts">
+                <h2>Event Visualizations</h2>
+                <canvas id="eventChart"></canvas>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
